@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container">
         <a class="navbar-brand" href="#">{{ config('app.name') }}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {{ __('Switch Language') }}
+                        {{ __('home.switch_language') }}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">English</a>
@@ -41,9 +41,9 @@
             </ul>
         </div>
     </nav>
-    <div class="container-fluid pt-5">
-        <h1>{{ __('Welcome') }}</h1>
-        <p>{{ __('This is example implementation of Laravel Localization.') }}</p> 
+    <div class="container pt-5">
+        <h1>{{ __('home.title') }}</h1>
+        <p>{{ __('home.description') }}</p> 
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
