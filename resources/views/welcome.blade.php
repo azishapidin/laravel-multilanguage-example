@@ -4,18 +4,6 @@
 <head>
     <title>{{ config('app.name') }}</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <style>
-        .vertical-center {
-            min-height: 100%;
-            /* Fallback for browsers do NOT support vh unit */
-            min-height: 100vh;
-            /* These two lines are counted as one :-)       */
-            display: flex;
-            align-items: center;
-            text-align: center;
-        }
-
-    </style>
 </head>
 
 <body>
