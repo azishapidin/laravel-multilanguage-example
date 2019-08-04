@@ -16,9 +16,6 @@ class LocalizationController extends Controller
      */
     public function switch($language = '')
     {
-        // Set locale sesuai parameter yang dimasukan.
-        App::setLocale($language);
-
         // Simpan locale ke session.
         request()->session()->put('locale', $language);
 
